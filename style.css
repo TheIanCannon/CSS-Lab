@@ -1,0 +1,66 @@
+* {
+ 	  box-sizing: border-box;
+ 	}
+body {
+    height: 100vh;
+ 	  font-family: Helvetica;
+    background-color: #0e5a5a;
+    }
+
+#card {
+  padding: 25px;
+  display: grid;
+  justify-content: center; 
+  text-align:center;
+  }
+
+#top{
+  padding: 10px;
+  background-color: white;
+  
+  }
+
+#online {
+  font-weight: lighter;
+  color: #cbcbcb;
+  text-align: right;
+}
+
+#headshot {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: solid #66d189 3px;
+}
+
+#name {
+  font-weight:bold;  
+}
+
+#upper-middle {
+  background-color: #f3f3f3;  
+}
+
+#lower-middle {
+  background-color: #ffffff;
+}
+
+#free {
+font-weight:bold;
+}
+
+#bottom-left {
+  width: 113px;
+  height: 113px;
+  padding: 15px;
+background-color: #66d189;
+}
+
+#bottom-right { 
+  width: 113px;
+  height: 113px;
+  padding: 15px;
+  background-color: #5abd7c;
+}
+
+@media only screen (max-width: 768px;) 
