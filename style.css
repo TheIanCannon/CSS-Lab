@@ -27,8 +27,8 @@ body {
 }
 
 #headshot {
-  height: 125px;
-  width: 125px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   border: solid #66d189 3px;
 }
